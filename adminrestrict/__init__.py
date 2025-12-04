@@ -1,9 +1,4 @@
-try:
-    __version__ = __import__('pkg_resources').get_distribution(
-        'django-adminrestrict'
-    ).version
-except:
-    __version__ = '3.0'
+__version__ = '3.2'
 
 
 def get_version():
